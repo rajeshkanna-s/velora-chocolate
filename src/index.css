@@ -173,6 +173,11 @@ body {
   }
 }
 
+/* Section Scroll Spacing */
+section, #hero, #collections, #story, #mobile, #reviews, #contact {
+  scroll-margin-top: 110px;
+}
+
 /* ========================================================
    1. STICKY TOP NAVIGATION
    ======================================================== */
@@ -184,13 +189,13 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 14px 28px;
-  background: rgba(13, 9, 7, 0.85);
+  background: rgba(13, 9, 7, 0.96);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(212, 163, 115, 0.22);
+  border: 1px solid rgba(212, 163, 115, 0.28);
   border-radius: 20px;
-  margin-bottom: 24px;
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
   transition: all 0.3s ease;
 }
 
